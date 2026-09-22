@@ -1,0 +1,5 @@
+weather forcasting predicts future atmospkheric condition 
+it uses temperature
+humidity
+wind speed
+and pressure

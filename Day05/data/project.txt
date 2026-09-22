@@ -1,0 +1,6 @@
+Project Name : Smart Library system
+Project Duration: january 2026 to june 2026
+programming Language : Pyhton 
+Datbase : SqlLite
+TeamMembers: Rahul ,anita , Vikram
+The objective of the project was to automate library management usinf artificial intelligence.

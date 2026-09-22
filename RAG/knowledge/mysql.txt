@@ -1,0 +1,6 @@
+my sql is a relational  database management system
+it stores structured data 
+using tables 
+rows 
+colummns 
+sql is used to query the data 
