@@ -1,0 +1,12 @@
+asyncio.run(main())        ← entry point
+    │
+    ├── connect()          ← MCP handshake (before any user input)
+    ├── discover_tools()   ← fetches tool list (before any user input)
+    │
+    ├── input("User : ")   ← ← ← user types HERE (step 3 of 7)
+    │
+    ├── planner()          ← LLM call #1 , we made the prompt and give it to llm and capture the result from llm
+    ├── execute_tool()     ← MCP tool runs
+    ├── generate_response() ← LLM call #2  , we made the prompt and give it to llm and capture the result from llm
+    │
+    └── disconnect()       ← cleanup
